@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Avtosalon3Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Avtomobili">
+    <Key>
+      <PropertyRef Name="IDAvto" />
+    </Key>
+    <Property Name="IDAvto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CarBrand" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModelCar" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cost" Type="int" />
+    <Property Name="YearAuto" Type="varchar" MaxLength="10" />
+    <Property Name="Color" Type="nvarchar" MaxLength="20" />
+    <Property Name="Country" Type="nvarchar" MaxLength="30" />
+    <Property Name="Complectation" Type="nvarchar" MaxLength="50" />
+    <Property Name="KPP" Type="nvarchar" MaxLength="10" />
+    <Property Name="Img" Type="nvarchar(max)" />
+    <Property Name="KuzovType" Type="nvarchar" MaxLength="20" />
+    <Property Name="VIN" Type="varchar" MaxLength="20" />
+    <Property Name="DatePublic" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="RegNumber" Type="nvarchar" MaxLength="10" />
+    <Property Name="EngineInfo" Type="nchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Klienti">
+    <Key>
+      <PropertyRef Name="IDKlient" />
+    </Key>
+    <Property Name="IDKlient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Birthday" Type="char" MaxLength="10" />
+    <Property Name="Adress" Type="nvarchar" MaxLength="150" />
+    <Property Name="Email" Type="nvarchar" MaxLength="30" />
+    <Property Name="PasportNumber" Type="nvarchar" MaxLength="11" />
+    <Property Name="Password" Type="nvarchar" MaxLength="25" />
+    <Property Name="UserType" Type="nvarchar" MaxLength="15" />
+    <Property Name="GotFrom" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Prodazhi">
+    <Key>
+      <PropertyRef Name="IDProdazhi" />
+    </Key>
+    <Property Name="IDProdazhi" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDAvto" Type="int" />
+    <Property Name="IDKlient" Type="int" />
+    <Property Name="Cost" Type="int" />
+    <Property Name="DateProdazhi" Type="varchar" MaxLength="25" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Birthday" Type="nvarchar" MaxLength="10" />
+    <Property Name="Adress" Type="nvarchar" MaxLength="150" />
+    <Property Name="PasportNumber" Type="nvarchar" MaxLength="11" />
+    <Property Name="CarBrand" Type="nvarchar" MaxLength="20" />
+    <Property Name="ModelCar" Type="nvarchar" MaxLength="20" />
+    <Property Name="YearAuto" Type="nvarchar" MaxLength="10" />
+    <Property Name="VIN" Type="varchar" MaxLength="20" />
+    <Property Name="Color" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "Avtosalon3.dbo.Status" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="IDStatus" />
+    </Key>
+    <Property Name="IDStatus" Type="int" Nullable="false" />
+    <Property Name="StatusName" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Zayavki">
+    <Key>
+      <PropertyRef Name="IDZayavki" />
+    </Key>
+    <Property Name="IDZayavki" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDKlient" Type="int" />
+    <Property Name="FIO" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="CarBrand" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModelCar" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cost" Type="int" />
+    <Property Name="YearAuto" Type="nvarchar" MaxLength="10" />
+    <Property Name="DateZayavki" Type="nvarchar" MaxLength="20" />
+    <Property Name="Complectation" Type="nvarchar" MaxLength="50" />
+    <Property Name="Color" Type="nvarchar" MaxLength="20" />
+    <Property Name="Status" Type="int" />
+  </EntityType>
+  <Association Name="FK_KlientProdazha">
+    <End Role="Klienti" Type="Self.Klienti" Multiplicity="0..1" />
+    <End Role="Prodazhi" Type="Self.Prodazhi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienti">
+        <PropertyRef Name="IDKlient" />
+      </Principal>
+      <Dependent Role="Prodazhi">
+        <PropertyRef Name="IDKlient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KlientZayavka">
+    <End Role="Klienti" Type="Self.Klienti" Multiplicity="0..1" />
+    <End Role="Zayavki" Type="Self.Zayavki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienti">
+        <PropertyRef Name="IDKlient" />
+      </Principal>
+      <Dependent Role="Zayavki">
+        <PropertyRef Name="IDKlient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище Avtosalon3ModelContainer">
+    <EntitySet Name="Avtomobili" EntityType="Self.Avtomobili" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Klienti" EntityType="Self.Klienti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Prodazhi" EntityType="Self.Prodazhi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zayavki" EntityType="Self.Zayavki" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Status].[IDStatus] AS [IDStatus], 
+    [Status].[StatusName] AS [StatusName]
+    FROM [dbo].[Status] AS [Status]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_KlientProdazha" Association="Self.FK_KlientProdazha">
+      <End Role="Klienti" EntitySet="Klienti" />
+      <End Role="Prodazhi" EntitySet="Prodazhi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KlientZayavka" Association="Self.FK_KlientZayavka">
+      <End Role="Klienti" EntitySet="Klienti" />
+      <End Role="Zayavki" EntitySet="Zayavki" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

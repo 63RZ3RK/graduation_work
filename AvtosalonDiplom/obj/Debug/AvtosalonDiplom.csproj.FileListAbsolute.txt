@@ -1,0 +1,130 @@
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\AvtosalonDiplom.exe.config
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\AvtosalonDiplom.exe
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\AvtosalonDiplom.pdb
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignColors.dll
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.AssemblyReference.cache
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.SuggestedBindingRedirects.cache
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\MainWindow.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\App.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom_MarkupCompile.cache
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom_MarkupCompile.lref
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\App.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\MainWindow.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.g.resources
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.Properties.Resources.resources
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.GenerateResource.cache
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.CoreCompileInputs.cache
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.CopyComplete
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.exe
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.pdb
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\Registration.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\Registration.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\CarsList.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\CarsList.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\EntityFramework.dll
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\EntityFramework.xml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\carsListItem.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom_Content.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\carsListItem.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\AboutCar.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\AboutCar.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\CarsListFrame.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\CarsListFrame.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\AddNewCarPage.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\AddNewCarPage.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\SellsList.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\SellsList.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\ClientsList.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\OrdersList.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\ClientsList.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\OrdersList.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\GuestPage.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\UserPage.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\GuestPage.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\UserPage.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\AddNewOrder.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\AddNewOrder.baml
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\NewSell.g.cs
+C:\Users\Айдар\source\repos\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\NewSell.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\AvtosalonDiplom.exe.config
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\AvtosalonDiplom.exe
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\AvtosalonDiplom.pdb
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\EntityFramework.dll
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignColors.dll
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\EntityFramework.xml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.AssemblyReference.cache
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.SuggestedBindingRedirects.cache
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\MainWindow.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\AboutCar.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\carsListItem.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\AddNewCarPage.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\AddNewOrder.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\CarsList.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\CarsListFrame.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\ClientsList.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\GuestPage.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\NewSell.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\OrdersList.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\Registration.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\SellsList.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\UserPage.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\App.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom_Content.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom_MarkupCompile.cache
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom_MarkupCompile.lref
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\App.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\MainWindow.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\AboutCar.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\carsListItem.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\AddNewCarPage.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\AddNewOrder.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\CarsList.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\CarsListFrame.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\ClientsList.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\GuestPage.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\NewSell.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\OrdersList.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\Registration.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\SellsList.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\UserPage.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.g.resources
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.Properties.Resources.resources
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.GenerateResource.cache
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.CoreCompileInputs.cache
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.CopyComplete
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.exe
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.pdb
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\EditPage.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\EditPage.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\carsListItemClientsNGuests.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\userGuestCarsList.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\carsListItemClientsNGuests.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\userGuestCarsList.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\Castle.Core.dll
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\Moq.dll
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\Castle.Core.xml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\Moq.xml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\AvtosalonDiplom.csproj.ResolveComReference.cache
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\bin\Debug\DKP\DKP.docx
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\ClientsOrdersListItem.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\ClientsOrdersPage.g.cs
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\userControlsItems\ClientsOrdersListItem.baml
+C:\Users\Айдар\Desktop\Хисамов отчет преддипломной практики\AvtosalonDiplom\AvtosalonDiplom\obj\Debug\View\ClientsOrdersPage.baml

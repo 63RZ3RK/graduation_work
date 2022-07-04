@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="AvtosalonDiplom.userControlsItems.AboutCar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AvtosalonDiplom.userControlsItems"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="1000">
+    <Border BorderBrush="Yellow" BorderThickness="1.5" CornerRadius="5" x:Name="BorderOrder">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <StackPanel Orientation="Vertical">
+                <Label x:Name="FIOLabel"/>
+                <Label x:Name="EmailLabel"/>
+                <Label x:Name="PhoneLabel"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1">
+            <StackPanel Orientation="Vertical">
+                <Label x:Name="CarBrandLabel"/>
+                <Label x:Name="ModelCarLabel"/>
+                <Label x:Name="CostLabel"/>
+            </StackPanel>
+        </Grid>
+            <Grid Grid.Column="2">
+                <StackPanel Orientation="Vertical">
+                    <Label x:Name="YearLabel"/>
+                    <Label x:Name="ColorLabel"/>
+                    <Label x:Name="ComplectationLabel"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="3">
+            <StackPanel Orientation="Vertical">
+                <Label x:Name="DateLabel" Content="{Binding DateZayavki}"/>
+                <ComboBox x:Name="StatusCB" Width="200" SelectionChanged="NewOrderStatus"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+    </Border>
+</UserControl>

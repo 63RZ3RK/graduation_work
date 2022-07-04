@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Avtosalon3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Avtomobili">
+    <Key>
+      <PropertyRef Name="IDAvto" />
+    </Key>
+    <Property Name="IDAvto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CarBrand" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ModelCar" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Cost" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="YearAuto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Complectation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="KPP" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Img" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="KuzovType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VIN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Klienti">
+    <Key>
+      <PropertyRef Name="IDKlient" />
+    </Key>
+    <Property Name="IDKlient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" Precision="0" />
+    <Property Name="Adress" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PasportNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="UserType" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Prodazhi" Relationship="Self.FK_KlientProdazha" FromRole="Klienti" ToRole="Prodazhi" />
+    <NavigationProperty Name="Zayavki" Relationship="Self.FK_KlientZayavka" FromRole="Klienti" ToRole="Zayavki" />
+  </EntityType>
+  <EntityType Name="Prodazhi">
+    <Key>
+      <PropertyRef Name="IDProdazhi" />
+    </Key>
+    <Property Name="IDProdazhi" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDAvto" Type="Int32" />
+    <Property Name="IDKlient" Type="Int32" />
+    <Property Name="Cost" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="DateProdazhi" Type="DateTime" Precision="0" />
+    <Property Name="FIO" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" Precision="0" />
+    <Property Name="Adress" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="PasportNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="YearAuto" Type="DateTime" Precision="0" />
+    <Property Name="VIN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Color" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Klienti" Relationship="Self.FK_KlientProdazha" FromRole="Prodazhi" ToRole="Klienti" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Zayavki">
+    <Key>
+      <PropertyRef Name="IDZayavki" />
+    </Key>
+    <Property Name="IDZayavki" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDKlient" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Cost" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="YearAuto" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DateZayavki" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Complectation" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Klienti" Relationship="Self.FK_KlientZayavka" FromRole="Zayavki" ToRole="Klienti" />
+  </EntityType>
+  <Association Name="FK_KlientProdazha">
+    <End Role="Klienti" Type="Self.Klienti" Multiplicity="0..1" />
+    <End Role="Prodazhi" Type="Self.Prodazhi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienti">
+        <PropertyRef Name="IDKlient" />
+      </Principal>
+      <Dependent Role="Prodazhi">
+        <PropertyRef Name="IDKlient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KlientZayavka">
+    <End Role="Klienti" Type="Self.Klienti" Multiplicity="1" />
+    <End Role="Zayavki" Type="Self.Zayavki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienti">
+        <PropertyRef Name="IDKlient" />
+      </Principal>
+      <Dependent Role="Zayavki">
+        <PropertyRef Name="IDKlient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Avtosalon3Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Avtomobili" EntityType="Self.Avtomobili" />
+    <EntitySet Name="Klienti" EntityType="Self.Klienti" />
+    <EntitySet Name="Prodazhi" EntityType="Self.Prodazhi" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Zayavki" EntityType="Self.Zayavki" />
+    <AssociationSet Name="FK_KlientProdazha" Association="Self.FK_KlientProdazha">
+      <End Role="Klienti" EntitySet="Klienti" />
+      <End Role="Prodazhi" EntitySet="Prodazhi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KlientZayavka" Association="Self.FK_KlientZayavka">
+      <End Role="Klienti" EntitySet="Klienti" />
+      <End Role="Zayavki" EntitySet="Zayavki" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

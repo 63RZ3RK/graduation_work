@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Avtosalon3Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Avtomobili">
+    <Key>
+      <PropertyRef Name="IDAvto" />
+    </Key>
+    <Property Name="IDAvto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CarBrand" Type="nvarchar(max)" />
+    <Property Name="ModelCar" Type="nvarchar(max)" />
+    <Property Name="Cost" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="YearAuto" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="50" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Complectation" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="KPP" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Img" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="KuzovType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="VIN" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Klienti">
+    <Key>
+      <PropertyRef Name="IDKlient" />
+    </Key>
+    <Property Name="IDKlient" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="150" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Birthday" Type="date" />
+    <Property Name="Adress" Type="nvarchar" MaxLength="150" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="PasportNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="25" />
+    <Property Name="UserType" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Prodazhi">
+    <Key>
+      <PropertyRef Name="IDProdazhi" />
+    </Key>
+    <Property Name="IDProdazhi" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDAvto" Type="int" />
+    <Property Name="IDKlient" Type="int" />
+    <Property Name="Cost" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="DateProdazhi" Type="date" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="150" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Birthday" Type="date" />
+    <Property Name="Adress" Type="nvarchar" MaxLength="150" />
+    <Property Name="PasportNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Title" Type="nvarchar" MaxLength="150" />
+    <Property Name="YearAuto" Type="date" />
+    <Property Name="VIN" Type="varchar" MaxLength="20" />
+    <Property Name="Color" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Zayavki">
+    <Key>
+      <PropertyRef Name="IDZayavki" />
+    </Key>
+    <Property Name="IDZayavki" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDKlient" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Cost" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="YearAuto" Type="date" Nullable="false" />
+    <Property Name="DateZayavki" Type="date" Nullable="false" />
+    <Property Name="Complectation" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_KlientProdazha">
+    <End Role="Klienti" Type="Self.Klienti" Multiplicity="0..1" />
+    <End Role="Prodazhi" Type="Self.Prodazhi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienti">
+        <PropertyRef Name="IDKlient" />
+      </Principal>
+      <Dependent Role="Prodazhi">
+        <PropertyRef Name="IDKlient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KlientZayavka">
+    <End Role="Klienti" Type="Self.Klienti" Multiplicity="1" />
+    <End Role="Zayavki" Type="Self.Zayavki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienti">
+        <PropertyRef Name="IDKlient" />
+      </Principal>
+      <Dependent Role="Zayavki">
+        <PropertyRef Name="IDKlient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище Avtosalon3ModelContainer">
+    <EntitySet Name="Avtomobili" EntityType="Self.Avtomobili" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Klienti" EntityType="Self.Klienti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Prodazhi" EntityType="Self.Prodazhi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zayavki" EntityType="Self.Zayavki" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_KlientProdazha" Association="Self.FK_KlientProdazha">
+      <End Role="Klienti" EntitySet="Klienti" />
+      <End Role="Prodazhi" EntitySet="Prodazhi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KlientZayavka" Association="Self.FK_KlientZayavka">
+      <End Role="Klienti" EntitySet="Klienti" />
+      <End Role="Zayavki" EntitySet="Zayavki" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
